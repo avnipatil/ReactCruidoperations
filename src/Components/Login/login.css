@@ -1,0 +1,11 @@
+.myform{
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    margin: 10% 35%;
+    border-radius: 13px;
+    padding: 2%;
+}
+.form-group{padding: 2px;}
+.form-control{
+    padding: 10px;
+    width: 300px;
+}

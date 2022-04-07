@@ -1,0 +1,77 @@
+.bansection{
+    background-image: url('../../img/Bannerimg.png');
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+.card.card-shadow {
+    -webkit-box-shadow: 0 5px 20px rgb(105 106 119 / 5%);
+    box-shadow: 0 5px 20px rgb(105 106 119 / 5%);}
+    .card-one {
+        margin-bottom: 2rem;
+    }
+    
+    .card {
+        -webkit-border-radius: 0.26667rem;
+        border-radius: 0.26667rem;
+        overflow: hidden;
+    }
+    .card {
+        position: relative;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        -webkit-background-clip: border-box;
+        background-clip: border-box;
+        border: 1px solid #e4e8ed;
+        -webkit-border-radius: 0.25rem;
+        border-radius: 0.25rem;
+    }
+    .card-one figure figcaption {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        background: rgba(6,181,144,.8);
+        -webkit-transition: all .3s ease;
+        -o-transition: all .3s ease;
+        transition: all .3s ease;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        opacity: 0;
+        visibility: hidden;}
+.card-one:hover figure figcaption {
+    opacity: 1;
+    visibility: visible;
+}
+ .card-body {
+            -webkit-box-flex: 1;
+            -webkit-flex: 1 1 auto;
+            -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+            padding: 1.67rem 2rem 1.8rem 2rem;}
+  .card-one .card-subtitle {
+                margin: 0 0 0.66667rem 0;
+                line-height: 1;
+            }
